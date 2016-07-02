@@ -1,0 +1,21 @@
+{
+    "name": "ExamenMeli",
+    "authors": [
+        "sebaslewis <sebas.lewis@gmail.com>"
+    ],
+    "description": "",
+    "main": "",
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "chico": "^2.0.6",
+        "mesh": "https://github.com/mercadolibre/mesh.git#~4.1.1"
+    }
+}

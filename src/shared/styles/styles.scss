@@ -1,0 +1,23 @@
+.prod-list {
+    .ch-carousel-item {
+        width: 100px;
+        height: 100px;
+        padding: 3px;
+        border: 1px solid gray;
+        border-radius: 4px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+.image {
+    img {
+        width: 100%;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
