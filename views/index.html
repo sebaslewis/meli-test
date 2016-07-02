@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="/dist/mesh.css">
-    <link rel="stylesheet" href="/dist/ui-theme.css">
+    <!-- Avoid script blocking -->
+    <script></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Libre</title>
+    <link rel="stylesheet" href="dist/mesh.min.css">
+    <link rel="stylesheet" href="dist/ui-theme.min.css">
 </head>
 <body>
     <div class="container" itemscope itemtype="https://schema.org/Product">
@@ -12,22 +18,21 @@
             <h1 itemprop="name">Ipad Mini Apple 16 GB Wifi Led 7.9</h1>
         </header>
         <main>
-            <section>
-                <div class="ch-box-lite mesh-col-xs-12 mesh-col-m-6" itemprop itemtype="https://schema.org/ImageObject">
-                    <div class="ch-clearfix image">
-                        <a id="zoom-default" class="zoom" href="static/ipad-mini.jpg" target="_blank">
+            <section class="mesh-row">
+                <div class="mesh-col-xs-12 mesh-col-l-6" itemprop itemtype="https://schema.org/ImageObject">
+                    <div class="image">
+                        <a href="static/ipad-mini.jpg" target="_blank">
                             <img src="static/ipad-mini.jpg"/>
                         </a>
                     </div>
                 </div>
-                <div class="mesh-col-xs-12 mesh-col-m-6">
+                <div class="mesh-col-xs-12 mesh-col-l-6">
                     <div class="mesh-row">
                         <div class="mesh-col-12">
-                            <form class="ch-form">
+                            <form class="ch-form prod-form">
                                 <fieldset>
-                                    <legend aria-hidden="true">Precio</legend>
-                                    <article class="product-price ch-price" itemprop="price" content="4799.99">
-                                        <span itemprop="priceCurrency" content="ARS">$</span> 4799<sup>99</sup>
+                                    <article itemprop="price" class="ch-price">
+                                        <strong>$4799<sup>99</sup></strong>
                                     </article>
                                 </fieldset>
 
@@ -70,37 +75,37 @@
                                 <h2>More Products like this</h2>
                                 <div class="prod-list ch-carousel">
                                     <ul>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #1" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #1"></figure>
                                             </a>
                                         </li>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #2" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #2"></figure>
                                             </a>
                                         </li>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #3" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #3"></figure>
                                             </a>
                                         </li>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #4" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #4"></figure>
                                             </a>
                                         </li>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #5" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #5"></figure>
                                             </a>
                                         </li>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #6" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #6"></figure>
                                             </a>
                                         </li>
-                                        <li itemscope itemtype ="http://schema.org/Offer">
+                                        <li itemscope itemtype="http://schema.org/Offer" class="image">
                                             <a href="#" role="link" title="Related product #7" itemprop="url">
                                                 <figure><img src="static/ninja.png" alt="Related product #7"></figure>
                                             </a>
@@ -111,50 +116,40 @@
                         </div>
                     </div>
                 </div>
-
             </section>
-            <section class="mess-row">
+            <section class="mesh-row">
                 <div class="mesh-col-xs-12">
-                    <div class="ch-tabs">
-                        <ul class="ch-tabs-triggers">
-                            <li><a href="#tab-desc" class="ch-tab">Tab1</a></li>
-                            <li><a href="#tab-questions" class="ch-tab">Tab2</a></li>
-                        </ul>
-                        <div class="ch-box-lite">
-                            <div id="tab-desc">
-                                <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ipsum tellus, quis ultricies nunc. Vestibulum ornare porta nunc, vitae tincidunt massa ornare vel. Nam ut felis odio.</p><p>Nam porta nunc vitae orci sollicitudin a ullamcorper purus dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed libero eget purus dictum fringilla non sed lectus. Etiam commodo quam in neque vehicula dapibus.</p><p>Phasellus ornare lacus ut purus elementum eget sodales dui placerat. Nunc ultrices porttitor mi, eu varius quam tristique in. Etiam tempor porta sodales.</p><p>Phasellus dui nisi, hendrerit a porta vel, tempus bibendum mauris.</p><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus bibendum consectetur dignissim.
+                    <div class="tabs">
+                        <div class="tab" role="tab">
+                            <div class="tab">
+                                <input type="radio" id="prod-desc" name="tabs" checked>
+                                <label for="prod-desc" class="ch-tab"> Product Description</label>
+                                <div class="tab-content">
+                                    <h2>Product Description</h2>
+                                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ipsum tellus, quis ultricies nunc. Vestibulum ornare porta nunc, vitae tincidunt massa ornare vel. Nam ut felis odio.</p><p>Nam porta nunc vitae orci sollicitudin a ullamcorper purus dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed libero eget purus dictum fringilla non sed lectus. Etiam commodo quam in neque vehicula dapibus.</p><p>Phasellus ornare lacus ut purus elementum eget sodales dui placerat. Nunc ultrices porttitor mi, eu varius quam tristique in. Etiam tempor porta sodales.</p><p>Phasellus dui nisi, hendrerit a porta vel, tempus bibendum mauris.</p><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus bibendum consectetur dignissim.</p>
                                 </div>
                             </div>
-
-                            <div id="tab-questions" class="ch-hide">
-                                <p style="color: #3a87ad;">Buyer</p>
-                                <div class="ch-box-info">
-                                    <p>Do you have this one in white?</p>
-                                </div>
-                                <p style="color: #468847;">Seller</p>
-                                <div class="ch-box-ok">
-                                    <p>No I don't, I only have black</p>
+                            <div class="tab">
+                                <input type="radio" id="prod-quest" name="tabs">
+                                <label for="prod-quest" class="ch-tab">Questions</label>
+                                <div class="tab-content">
+                                    <div class="buyer">
+                                        <p>Buyer</p>
+                                        <div class="ch-box-info" itemprop="commentText"><p>Do you have this one in white?</p></div>
+                                    </div>
+                                    <div class="seller">
+                                        <p> Seller</p>
+                                        <div class="ch-box-ok" itemprop="commentText"><p>No I don't, I only have black</p></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="tab" role="tab"></div>
                     </div>
                 </div>
             </section>
         </main>
     </div>
-    <script src="/dist/app.min.js"></script>
-    <script>
-        function qS(selector) { return document.querySelector(selector); };
-        var carousel = new ch.Carousel(
-                qS('.ch-carousel'),
-                {
-                    'pagination': false,
-                    'arrows': true,
-                    'limitPerPage': 4
-                }
-        );
-        var tabs = new ch.Tabs(qS('.ch-tabs'));
-    </script>
+    <script src="dist/app.min.js"></script>
 </body>
 </html>

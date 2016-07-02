@@ -1,0 +1,52 @@
+@import 'bower_components/chico/src/shared/styles/boxes-variables';
+@import 'bower_components/chico/src/ui/styles/tabs-variables';
+
+.tabs {
+    position: relative;
+    clear: both;
+    margin-top: 10px;
+
+    .tab {
+        float: left;
+        label {
+            margin-left: 4px;
+            position: relative;
+            left: 1px;
+            top: 0px;
+            cursor: pointer;
+        }
+        .tab-content {
+            position: absolute;
+            top: 27px;
+            left: 0;
+            background: $tab-bg-color;
+            right: 0;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            transition: opacity .3s linear;
+            opacity: 0;
+
+            .seller {
+                color: $box-ok-text-color;
+            }
+
+            .buyer {
+                color: $box-info-text-color;
+            }
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        input[type="radio"]:checked ~ label {
+            z-index: 2;
+            border-bottom: 1px solid $tab-bg-color;
+        }
+
+        input[type="radio"]:checked ~ label ~ .tab-content {
+            z-index: 1;
+            opacity: 1;
+        }
+    }
+}

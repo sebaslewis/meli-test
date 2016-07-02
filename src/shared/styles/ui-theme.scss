@@ -1,3 +1,35 @@
-@import 'bower_components/chico/dist/ui/chico';
+@import 'bower_components/chico/src/shared/styles/mixins';
+@import 'bower_components/chico/src/shared/styles/variables';
 
-@import 'styles';
+@import 'bower_components/chico/src/shared/styles/autocomplete';
+
+@import 'bower_components/chico/src/shared/styles/base';
+@import 'bower_components/chico/src/shared/styles/boxes';
+@import 'bower_components/chico/src/shared/styles/bubble';
+@import 'bower_components/chico/src/shared/styles/buttons';
+@import 'bower_components/chico/src/shared/styles/calendar';
+@import 'bower_components/chico/src/shared/styles/carousel';
+@import 'bower_components/chico/src/shared/styles/close';
+@import 'bower_components/chico/src/shared/styles/datagrid';
+@import 'bower_components/chico/src/shared/styles/dropdown';
+@import 'bower_components/chico/src/shared/styles/form';
+@import 'bower_components/chico/src/shared/styles/functions';
+@import 'bower_components/chico/src/shared/styles/layer';
+@import 'bower_components/chico/src/shared/styles/icons';
+@import 'bower_components/chico/src/shared/styles/lists';
+@import 'bower_components/chico/src/shared/styles/loading';
+@import 'bower_components/chico/src/shared/styles/modal';
+@import 'bower_components/chico/src/shared/styles/pagination';
+@import 'bower_components/chico/src/shared/styles/popover';
+@import 'bower_components/chico/src/shared/styles/reset';
+@import 'bower_components/chico/src/shared/styles/tooltip';
+@import 'bower_components/chico/src/shared/styles/transition';
+@import 'bower_components/chico/src/shared/styles/typography';
+
+@import 'bower_components/chico/src/ui/styles/tabs';
+@import 'bower_components/chico/src/mobile/styles/form';
+
+@import 'base';
+@import 'tabs';
+@import 'prod-form';
+@import 'prod-list';
