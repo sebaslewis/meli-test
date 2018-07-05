@@ -1,7 +1,11 @@
 var gulp = require('gulp');
+
 var $ = require('gulp-load-plugins')();
+
 var path = require('path');
+
 var eslint = require('gulp-eslint');
+
 var postcss = require('gulp-postcss');
 var browserSync = require('browser-sync').create();
 var uglify = require('gulp-uglifyjs');
